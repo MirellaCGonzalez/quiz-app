@@ -22,23 +22,17 @@ The following requirements cover what the app must do, from the user's perspecti
 
 Your quiz app must:
 
-1. Render answer choices in a <form>. [done]
-2. Use semantic HTML, along with CSS and jQuery. Semantic HTML[done]
-3. Follow a11y best practices. [done]
-4. Refer back to the checkpoints on accessibility and forms for help. [done]
-5. Use responsive design. [done]
-6. Be fully usable by keyboard (which will be easy enough if you start with a form). [done]
+1. Include a render() function, that conditionally regenerates the view each time the store is updated.
+2. Include single-purpose template generation functions.
+3. Include single-purpose event handler functions.
+4. Call all functions from a jQuery initializing function.
+NOT add additional HTML elements to the boilerplate code's index.html file (you may add attributes, e.g., classes and ids, to the existing HTML elements, or link stylesheets or additional scripts if necessary).
+5. Render answer choices in a <form>. [done]
+6. Use semantic HTML, along with CSS and jQuery. Semantic HTML[done]
+7. Follow a11y best practices. [done]
+8. Refer back to the checkpoints on accessibility and forms for help. [done]
+9. Use responsive design. [done]
+10. Be fully usable by keyboard (which will be easy enough if you start with a form). [done]
 
-# Build App Process Framework
 
-1. Refer back to the user stories we asked you to consider in a previous checkpoint. Use them to keep sight of what features your app still needs as you go along.
-2. Next create function stubs with pseudocode in your JavaScript.
-3. One by one, fully implement each function.
-4. Add CSS styling last. Once your application is working, add CSS styling to make it look good.
 
-# Assignment Grading
-
-1. Build a quiz app that meets the requirements described in the previous checkpoint. Use your wireframe and user stories as a guide.
-2. Deploy your app on GitHub using GitHub pages. When you're done, please create a Gist with the a link to the live page and your repo, and submit it below.
-
-As a reminder, your project will be scored based on this rubric. In order to pass, you must score an average of 3.5 points on each objective (21 total points) and cannot receive a 1 score for any objective.
