@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+  <link rel ='stylesheet' href = 'css/normalize.css'>
+</head>
+
+<body>
+  <header>
+    <h1>Disney Trivia Quiz</h1>
+    <img src="https://media.giphy.com/media/xTiTnsii6g8XopknVC/giphy.gif" alt="Mickey and Minnie waving hello" class="logo-img">
+  </header>
+  <main>
+
+	<main role="main">
+        <section class="start-section">
+                  <input type="button" value="Start" class="start-button js-start-button"> 
+          </section>
+
+          <!--top section of quiz box-score section -->
+        <div class="quiz-box">
+            <div class="progress-section">
+               <span class="question-count"></span>
+               <span class="score-card"></span>
+               <hr>
+               
+            </div>
+        <!--content section of quiz box- below line break-->
+            <div class="quiz-section">
+                <form class="questions-form">
+                   <p></p>
+                   <label class="options">
+                     <input  id="option-one" type="radio" name="option-one">
+                     <span></span>
+                   </label>
+                    <label class="options">
+                     <input id="option-two" type="radio" name="option-one">
+                     <span></span>
+                   </label>
+                    <label class="options">
+                     <input id="option-three" type="radio" name="option-one">
+                     <span></span>
+                   </label>
+                    <label class="options">
+                     <input id="option-four" type="radio" name="option-one">
+                     <span></span>
+                   </label>
+                   <input type="button" value="Submit Answer" class="submit-button js-submit-button"> 
+               </form>	
+             </div>
+         </div>
+
+         <section class="feedback-section">
+            <div class="popup-box">
+              <button type="button" class="close-button js-close-button">X</button>
+              <img src="" class="feedback-icon">
+              <span id="popup-text"></span>
+            </div>
+          </section>
+
+            <div class="end-section">
+                <h2></h2>
+                    <input type="button"  class="startover-button js-startover-button" value="Start Over" >
+                 </div>
+          
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
